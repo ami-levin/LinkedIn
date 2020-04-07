@@ -1,0 +1,11 @@
+-- Video 2
+https://dbfiddle.uk/?rdbms=postgres_12&fiddle=ddddebe8a0a10ccdd1bdeaddfbe89ca8&hide=1
+
+-- Video 3
+https://dbfiddle.uk/?rdbms=postgres_12&fiddle=5c2d620e1e7fa565ad8eaacf493fdd0d&hide=1
+
+-- Video 4
+https://dbfiddle.uk/?rdbms=postgres_12&fiddle=f5f296bf9e401a7179cef978adcdaa0a&hide=1
+
+-- Challenge / Solution
+https://dbfiddle.uk/?rdbms=postgres_12&fiddle=30cc79806c675bfb520db0a80b22e33f&hide=1
