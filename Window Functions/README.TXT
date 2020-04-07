@@ -1,1 +1,1 @@
-This repository hosts all code files for my LinkedIn Learning Course "Advanced SQL - Window Functions".
+This repository hosts all code files for my LinkedIn Learning Course "Advanced SQL Series - Window Functions".
