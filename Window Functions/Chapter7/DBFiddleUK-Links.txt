@@ -1,0 +1,2 @@
+-- Challenge / Solution
+https://dbfiddle.uk/?rdbms=postgres_12&fiddle=0bfda02387c7f8e575515c768eec02ce&hide=1
