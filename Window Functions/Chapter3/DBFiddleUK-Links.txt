@@ -1,0 +1,2 @@
+-- Video 2
+https://dbfiddle.uk/?rdbms=postgres_12&fiddle=c140b8ba74331136998f10ca44a21d89&hide=1
