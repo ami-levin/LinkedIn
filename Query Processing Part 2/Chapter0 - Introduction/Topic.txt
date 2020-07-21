@@ -1,1 +1,12 @@
-Chapter 0 - Introduction
+--------------------------------------------
+-- LinkedIn Learning -----------------------
+-- Advanced SQL - Query Processing Part 2 --
+-- Ami Levin 2020 --------------------------
+---------------------------------------
+-- Chapter 0:	Introduction ----------
+---------------------------------------
+----- Video 1:	Course Introduction ---
+----- Video 2:	Agenda ----------------
+----- Video 3:	Setting Expectations --
+----- Video 4:	Solution --------------
+---------------------------------------

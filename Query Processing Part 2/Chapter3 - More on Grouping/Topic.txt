@@ -1,0 +1,13 @@
+--------------------------------------------
+-- LinkedIn Learning -----------------------
+-- Advanced SQL - Query Processing Part 2 --
+-- Ami Levin 2020 --------------------------
+----------------------------------------
+-- Chapter 3:	Ordered Set Functions --
+----------------------------------------
+----- Video 1:	Ordered Set Functions --
+----- Video 2:	Grouping Sets ----------
+----- Video 3:	Challenge --------------
+----- Video 4:	Solution ---------------
+----------------------------------------
+

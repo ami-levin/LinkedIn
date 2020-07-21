@@ -1,0 +1,76 @@
+--------------------------------------------
+-- LinkedIn Learning -----------------------
+-- Advanced SQL - Query Processing Part 2 --
+-- Ami Levin 2020 --------------------------
+--------------------------------------------
+
+All Video DBFiddle.UK Links:
+
+----------------------------------------------
+-- Chapter 1 - Subqueries and Set Operators --
+----------------------------------------------
+
+----- Video 1 - Subqueries
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=61cff09e3fc8ec691a6700ab221aeeeb&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=6e89d50ca69b75aa138aa36ccfa6b08d&hide=1
+
+----- Video 2 - Set Operators
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=ccbe0f967b49f35ac4fcbac5c7142940&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=0a3c8a1dd8273b7cac0a2746710a9046&hide=1
+
+----- Video 3 - Challenge
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=495930b53b038b6a79e527b4f5763118
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=495930b53b038b6a79e527b4f5763118
+
+----- Video 4 - Solution
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=aed3a3262dfc64d609afe2737b63fd22&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=1d90985b4b945b050f8f4c071f56bb88&hide=1
+
+--------------------------------
+-- Chapter 2 - Advanced Joins --
+--------------------------------
+
+----- Video 1 - Self and Non Equality Joins
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=6900b64c2b229b09a679d00a6a2a982b&hide=3
+
+----- Video 2 - Lateral Joins
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=dbe9c33618950dc2e438b050123d8d19&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=ec379ec86dd02ed55893112470441e4f&hide=1
+
+----- Video 3 - Challenge
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=4d80f929838df26945e4c706b02dbeab
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=28ba0ec7a95fd1c0bf8013d0bb5c6cde
+
+----- Video 4 - Solution
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=ca55e3fd2a2e01b4b1fac19b9da04dc9&hide=3
+
+----------------------------------
+-- Chapter 3 - More on Grouping --
+----------------------------------
+
+----- Video 1 - Ordered Set Functions
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=1ae501fa44279f5c45f1e1b08768432b&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=ec91d9e0bf54acb8b9d723101f09fa32&hide=1
+
+----- Video 2 - Grouping Sets
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=04376649f89222ea605600103e5f01e4&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=58f53dadfba0b8ef1624a40776636155&hide=1
+
+----- Video 3 - Challenge
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=ff5780541829f07ad26b4afd5fdc3a85
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=a3bbb61d21adf12d24192d557a23ca30
+
+----- Video 4 - Solution
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=115dc05ee50b00c1ab2fd188c93df953&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=052cedbb2262e92ef66ed9d1c42b74fc&hide=1
+
+----------------------------------------
+-- Chapter 4 - Recursions and Cursors --
+----------------------------------------
+
+----- Video 1 - Recursions
+SQL Server:	https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=075b0e5ef4d49f60737ed7ab80f0c3c6&hide=3
+PostgreSQL:	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=3c7809a20db10b7d91e5c7db7131e3ac&hide=1
+
+----- Video 2 - The Cursors' Curse
+No code demo 4 U!
