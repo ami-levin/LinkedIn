@@ -9,9 +9,14 @@
 https://github.com/ami-levin/LinkedIn/tree/master/Query%20Processing%20Part%202/Chapter4%20-%20Recursions%20and%20Cursors/Video1.sql
 
 -- DBFiddle UK
-/*SQL Server*/	
-/*PostgreSQL*/	
+/*SQL Server*/		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=f9843048f7c533c95d3b1accda60c88c&hide=3
+/*PostgreSQL*/	https://dbfiddle.uk/?rdbms=postgres_12&fiddle=6e4189e143ecf4fa6820beb05057c191&hide=1
 
+-- Additional Resources
+https://www.itprotoday.com/sql-server/ordered-set-functions
+https://www.itprotoday.com/sql-server/inverse-distribution-functions
+https://docs.microsoft.com/en-us/sql/t-sql/functions/percentile-disc-transact-sql
+https://docs.microsoft.com/en-us/sql/t-sql/functions/percentile-cont-transact-sql
 
 /*
    ____           __                   __   _____      __     ______                 __  _                 
