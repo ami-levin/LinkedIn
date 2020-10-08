@@ -10,11 +10,31 @@
 --------------
 -- Mandatory --
 --------------
--- Solution
 
--- <Your solution code here>
+WITH Adoption_count AS
+(
+SELECT a.species AS species,
+breed,
+CASE WHEN adoption_date IS NULL
+THEN 0 ELSE 1 END AS no_of_adoptions
+FROM animals a
+LEFT JOIN adoptions ad
+ON a.name = ad.name
+AND
+a.species = ad.species
 
--- Explanation
+)
 
--- <Your brief explanation here>
+SELECT
+species,
+breed
+FROM
+(
+SELECT DISTINCT
+species,
+breed,
+sum(no_of_adoptions) OVER (PARTITION BY breed) AS Adopted
+FROM adoption_count
+) T1
 
+WHERE Adopted = 0
