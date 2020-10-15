@@ -26,13 +26,14 @@ a.species = ad.species
 )
 
 SELECT
+species,
 breed
 FROM
 (
 SELECT DISTINCT
 species,
 breed,
-sum(no_of_adoptions) OVER (PARTITION BY breed) AS Adopted
+sum(no_of_adoptions) OVER (PARTITION BY species,breed) AS Adopted
 FROM adoption_count
 ORDER BY species
 ) T1
