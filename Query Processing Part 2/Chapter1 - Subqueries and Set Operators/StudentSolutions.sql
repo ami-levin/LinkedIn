@@ -1,3 +1,12 @@
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ Copy the template headers below.          @@
+@@ Modify content for your solution.         @@
+@@ Paste below the last solution.            @@
+@@ Submit a PR.                              @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
 --------------
 -- OPTIONAL --
 --------------
