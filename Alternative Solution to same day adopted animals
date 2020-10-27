@@ -1,0 +1,16 @@
+With same_day_adoption AS
+(
+SELECT
+species,
+name,
+adopter_email,
+adoption_date,
+count(*) OVER (PARTITION BY adopter_email,adoption_date) AS Same_day_adoption
+FROM Adoptions
+)
+SELECT
+adopter_email, adoption_date,
+GROUP_concat(concat( name, " ","the"," ",species))AS Animals_adopted
+FROM same_day_adoption
+WHERE same_day_adoption = 2
+GROUP BY adopter_email,adoption_date
