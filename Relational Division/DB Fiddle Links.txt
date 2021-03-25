@@ -1,1 +1,101 @@
-TBD
+--------------------------------------------------
+-- LinkedIn Learning -----------------------------
+-- Advanced SQL: Conquering Relational Division --
+-- Ami Levin 2021 --------------------------------
+-- DB Fiddle UK Links ----------------------------
+--------------------------------------------------
+-- GitHub Page
+https://github.com/ami-levin/LinkedIn/blob/master/Relational%20Division/DB%20Fiddle%20Links.txt
+
+-- Preloaded HR Demo Database
+https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=06f6f880236311c73861876be59dc087&hide=1
+
+---------------
+-- Chapter 0 --
+---------------
+-- Video 3
+https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=3f1a85e0460af36519ba3ca119ff77ab&hide=1
+
+---------------
+-- Chapter 1 --
+---------------
+-- Video 1
+
+
+-- Video 2
+
+
+-- Video 3
+
+
+-- Video 4
+
+
+---------------
+-- Chapter 2 --
+---------------
+
+-- Video 1
+
+
+-- Video 2
+
+
+-- Video 3
+
+
+---------------
+-- Chapter 3 --
+---------------
+
+-- Video 1
+
+
+-- Video 2
+
+
+-- Video 3
+
+
+---------------
+-- Chapter 4 --
+---------------
+
+-- Video 1
+
+
+-- Video 2
+
+
+-- Video 3
+
+
+---------------
+-- Chapter 5 --
+---------------
+
+-- Video 1
+
+
+-- Video 2
+
+
+-- Video 3
+
+
+-- Video 4
+
+
+---------------
+-- Chapter 6 --
+---------------
+
+-- Video 1
+
+
+-- Video 2
+
+
+---------
+-- EOF --
+---------
