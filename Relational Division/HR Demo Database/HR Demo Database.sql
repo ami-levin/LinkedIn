@@ -4,7 +4,6 @@
 -- Ami Levin 2021 --------------------------------
 -- HR Demo Database ------------------------------
 --------------------------------------------------
--- GitHub Page
 -- https://github.com/ami-levin/LinkedIn/tree/master/Relational%20Division/HR%20Demo%20Database
 
 -- DB Fiddle Preloaded with HR Demo Database
