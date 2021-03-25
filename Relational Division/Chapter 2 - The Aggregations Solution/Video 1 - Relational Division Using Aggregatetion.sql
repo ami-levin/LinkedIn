@@ -4,7 +4,7 @@
 -- Ami Levin 2021 --------------------------------
 -- Chapter 2 - Video 1 - Aggregations ------------
 --------------------------------------------------
--- https://github.com/ami-levin/LinkedIn/blob/master/Relational%20Division/Chapter%202%20-%20The%20Aggregations%20Solution/Video%201%20-%20Aggregations.sql
+-- https://github.com/ami-levin/LinkedIn/blob/master/Relational%20Division/Chapter%202%20-%20The%20Aggregations%20Solution/Video%201%20-%20Relational%20Division%20Using%20Aggregatetion.sql
 -- https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=7b99f7467c391b40cfef5f478ef421b2&hide=1
 
 USE HR;

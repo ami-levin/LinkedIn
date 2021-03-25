@@ -1,15 +1,13 @@
-----------------------------------------
--- LinkedIn Learning -------------------
--- Advanced SQL - Relational Division --
--- Ami Levin 2021 ----------------------
--- .\Chapter5\Video4.sql ---------------
-----------------------------------------
+---------------------------------------------------
+-- LinkedIn Learning ------------------------------
+-- Advanced SQL: Conquering Relational Division ---
+-- Ami Levin 2021 ---------------------------------
+-- Chapter 5 - Video 4 - Exact Division Solution --
+---------------------------------------------------
+-- https://github.com/ami-levin/LinkedIn/blob/master/Relational%20Division/Chapter%205%20-%20Multidivisors%20and%20zero%20divisions/Video%204%20-%20Multiple%20Divisors%20Exact%20Relational%20Division%20Solution.sql
+-- https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=faada7cb5413950597b2c387dd15d03d&hide=1
 
-USE HR;
-GO
-
--- Show all candidate and Roles, where the candidate meets the Role requirements and only those.
--- Using aggregation
+-- Aggregations
 WITH RoleSkillCounts AS
 (
 	SELECT	R.Role, 
@@ -20,8 +18,7 @@ WITH RoleSkillCounts AS
 			ON R.Role = RS.Role
 	GROUP BY R.Role
 ),
-CandidateSkillCount
-AS
+CandidateSkillCount AS
 (
 	SELECT 	C.Candidate, 
 			COUNT(CS.Skill) AS CandidateSkillCount
@@ -45,20 +42,20 @@ FROM	(
 		)
 		LEFT OUTER JOIN
 		(
-		CandidateSkills AS CS
-	    INNER JOIN 
-		RoleSkills AS RS
-        ON 	RS.Skill = CS.Skill
+			CandidateSkills AS CS
+			INNER JOIN 
+			RoleSkills AS RS
+			ON 	RS.Skill = CS.Skill
 		)
 		ON 	C.Candidate = CS.Candidate
 			AND 
 			R.Role = RS.Role 
 GROUP BY C.Candidate, R.Role
-HAVING	COUNT(CS.Skill) = MAX(RSC.RoleSkillCount) -- Dummy MAX aggregate
+HAVING	COUNT(CS.Skill) = MAX(RSC.RoleSkillCount) -- Dummy MAX aggregate, sorry...
         AND
-        COUNT(CS.Skill) = MAX(CSC.CandidateSkillCount);
+        COUNT(CS.Skill) = MAX(CSC.CandidateSkillCount);-- Dummy MAX aggregate, sorry...
 
--- Using SET operator
+-- Set operators
 SELECT	C.Candidate, R.Role
 FROM	Candidates AS C
 		CROSS JOIN		
@@ -84,7 +81,7 @@ WHERE	NOT EXISTS	(
 					);
 
 
--- Using nested subqueries
+-- Nested subqueries
 SELECT 	C.Candidate, R.Role
 FROM 	Candidates AS C
         CROSS JOIN 
@@ -102,7 +99,6 @@ WHERE 	NOT EXISTS	(
 														CS.Candidate = C.Candidate
 											)
 					)
- -- Exact division
 		AND 
         NOT EXISTS (
                         SELECT  NULL 
@@ -118,3 +114,6 @@ WHERE 	NOT EXISTS	(
                                             )
                     );
 							 
+---------
+-- EOF --
+---------

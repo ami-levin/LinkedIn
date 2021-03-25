@@ -9,6 +9,12 @@
 -- DB Fiddle Preloaded with HR Demo Database
 -- https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=06f6f880236311c73861876be59dc087&hide=1
 
+-- Joe Celko on keys and identifiers:
+-- https://www.informationweek.com/software/information-management/celko-on-sql-identifiers-and-the-properties-of-relational-keys/d/d-id/1058284?
+
+-- Fabian Pascal on relational keys:
+-- https://www.dbdebunk.com/2018/02/the-key-to-relational-keys-new.html
+
 ------------------------
 -- Setup (SQL Server) --
 ------------------------

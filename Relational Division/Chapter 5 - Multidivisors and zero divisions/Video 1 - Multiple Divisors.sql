@@ -1,9 +1,11 @@
-----------------------------------------
--- LinkedIn Learning -------------------
--- Advanced SQL - Relational Division --
--- Ami Levin 2021 ----------------------
--- .\Chapter5\Video1.sql ---------------
-----------------------------------------
+--------------------------------------------------
+-- LinkedIn Learning -----------------------------
+-- Advanced SQL: Conquering Relational Division --
+-- Ami Levin 2021 --------------------------------
+-- Chapter 5 - Video 1 - MultiDivisor ------------
+--------------------------------------------------
+-- https://github.com/ami-levin/LinkedIn/blob/master/Relational%20Division/Chapter%205%20-%20Multidivisors%20and%20zero%20divisions/Video%201%20-%20Multiple%20Divisors.sql
+-- https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=f181eeb2a02901498ea71cba47b1afdf&hide=1
 
 USE HR;
 GO
@@ -114,3 +116,6 @@ WHERE 	NOT EXISTS	(
 											)
 					);
 							 
+---------
+-- EOF --
+---------

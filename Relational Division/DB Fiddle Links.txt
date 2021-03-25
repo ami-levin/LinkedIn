@@ -24,36 +24,35 @@ Video 4:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=06f6f880236311c738618
 -- Chapter 2 --
 ---------------
 Video 1:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=7b99f7467c391b40cfef5f478ef421b2&hide=1
-Video 2:		
-Video 3:		
+Video 2:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=e3c2d988396091e4fe37307f0c787880&hide=1
+Video 3:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=1346eebc91288d3a23efdc8a09800e3e&hide=1
 
 ---------------
 -- Chapter 3 --
 ---------------
-Video 1:		
-Video 2:		
-Video 3:		
+Video 1:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=e53098635c902de85ad6e369e078a67d&hide=1
+Video 2:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=df1698e5f5b62db7a555102560dab3e0&hide=1
+Video 3:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=8d82ad5d337fca5ce2203c6a1d9cd1f7&hide=1
 
 ---------------
 -- Chapter 4 --
 ---------------
-Video 1:		
-Video 2:		
-Video 3:		
+Video 1:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=e3c8989748a46ae886b6c36b159c29f6&hide=1
+Video 2:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=a8eaf669d1318ce5eab7933a1e08bc5d&hide=1
+Video 3:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=ad920e71a2556574b411b552c64e3831&hide=1
 
 ---------------
 -- Chapter 5 --
 ---------------
-Video 1:		
-Video 2:		
-Video 3:		
-Video 4:		
+Video 1:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=f181eeb2a02901498ea71cba47b1afdf&hide=1
+Video 2:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=47a6f3af8839422e6416c4af92679476&hide=1
+Video 3:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=365c1c3f801562631696c915568890b5&hide=1
+Video 4:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=faada7cb5413950597b2c387dd15d03d&hide=1
 
 ---------------
 -- Chapter 6 --
 ---------------
-Video 1:		
-Video 2:		
+Video 1:		https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=897d706832f68014e27e002c22305976&hide=1
 
 ---------
 -- EOF --

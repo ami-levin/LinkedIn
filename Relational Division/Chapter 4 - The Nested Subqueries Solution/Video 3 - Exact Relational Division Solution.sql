@@ -1,15 +1,13 @@
-----------------------------------------
--- LinkedIn Learning -------------------
--- Advanced SQL - Relational Division --
--- Ami Levin 2021 ----------------------
--- .\Chapter4\Video4.sql ---------------
-----------------------------------------
+---------------------------------------------------
+-- LinkedIn Learning ------------------------------
+-- Advanced SQL: Conquering Relational Division ---
+-- Ami Levin 2021 ---------------------------------
+-- Chapter 4 - Video 2 - Exact Division Solution --
+---------------------------------------------------
+-- https://github.com/ami-levin/LinkedIn/blob/master/Relational%20Division/Chapter%204%20-%20The%20Nested%20Subqueries%20Solution/Video%203%20-%20Exact%20Relational%20Division%20Solution.sql
+-- https://dbfiddle.uk/?rdbms=sqlserver_2019&fiddle=ad920e71a2556574b411b552c64e3831&hide=1
 
-USE HR;
-GO
-
--- Exact Division - Eliminate Darrin!
-
+-- Exact Division #EliminateDarrin
 SELECT 	C.Candidate
 FROM 	Candidates AS C
 WHERE 	NOT EXISTS	(
@@ -40,6 +38,7 @@ WHERE 	NOT EXISTS	(
                                             )
                     );
 
+-- Prettifacation
 WITH DBArchitectSkill AS 
 (
 	SELECT 	RS.SKill
@@ -74,12 +73,41 @@ WHERE 	NOT EXISTS	(
                     );
 
 
-
--- Bonus Challenge 
-
--- Who has the same skills as Natasha?
+----------------------------------------------------------
+-- Bonus Challenge: Who has the same skills as Natasha? --
+----------------------------------------------------------
+-- SPOILER ALERT: Solution below! ------------------------
+----------------------------------------------------------
 -- 
--- Spoiler alert - Solution below!
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 
 -- 
 -- 
 -- 
@@ -101,9 +129,7 @@ WHERE 	NOT EXISTS	(
 -- 
 -- 
 --
--- "Show me all candidates (except for Natasha), 
--- for which there isn't a skill that Natasha has, that they don't have as well."
-
+-- "Find all candidates (except for Natasha), for which there isn't a skill that Natasha has, that they don't have as well."
 SELECT	C.Candidate
 FROM	Candidates AS C
 WHERE	Candidate <> 'Natasha'
@@ -121,3 +147,7 @@ WHERE	Candidate <> 'Natasha'
 														CS.Candidate = C.Candidate
 											)	
 					);
+					
+---------
+-- EOF --
+---------
