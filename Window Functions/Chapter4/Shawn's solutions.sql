@@ -31,7 +31,7 @@ GROUP BY    DATE_PART ('year', vaccination_time)
 )
 SELECT  *,
         CAST(AVG (number_of_vaccinations) OVER W AS DECIMAL (5, 2)) AS previous_2_years_average, -- Use window function to calculate previous 2 year average number of vaccinations
-        CAST(100 * number_of_vaccinations / (AVG (number_of_vaccinations) OVER W ) AS DECIMAL (5, 2)) AS percent_change  -- Use window function to calculate percentage change
+        CAST(100 * (number_of_vaccinations / (AVG (number_of_vaccinations) OVER W ) - 1) AS DECIMAL (5, 2)) AS percent_change  -- Use window function to calculate percentage change
 FROM    yearly_vaccination_count
 WINDOW W AS (   ORDER BY year ASC
                 RANGE BETWEEN   2 PRECEDING
