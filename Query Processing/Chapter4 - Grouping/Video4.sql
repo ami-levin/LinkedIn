@@ -10,7 +10,7 @@ Animal vaccination report
 --------------------------
 
 Write a query to report the number of vaccinations each animal has received.
-Include animals that were never adopted.
+Include animals that were never vaccinated.
 Exclude all rabbits.
 Exclude all Rabies vaccinations.
 Exclude all animals that were last vaccinated on or after October first, 2019.
