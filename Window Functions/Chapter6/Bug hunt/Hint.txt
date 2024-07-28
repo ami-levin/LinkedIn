@@ -1,1 +1,5 @@
+Correct me if I am worng, but my thoughts are following:
 
+The bug lies down when try to get the is_first_queter in case `GROUP BY species`.
+In this case, we want to get the querter_start date for each specie, thus there should be 
+a `PARTITION BY species` after `LAG(quarter_start`
